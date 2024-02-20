@@ -1,6 +1,11 @@
-<!DOCTYPE html>
 <!-- 此<html>元素是根元素，它定義了整個HTML文件，<html>元素內部有一個<body> 元素-->
-<html lang="en">
+<!DOCTYPE html>
+
+<!-- language Attribute -->
+<!-- 您應該始終在標記lang內包含該屬性<html>，以聲明網頁的語言。這是為了幫助搜尋引擎和瀏覽器。-->
+<!-- ISO 639-1 Language Codes -->
+
+<html lang="zh-Hant-TW">
 <!-- 該<body>元素定義文檔的主體。該<body>元素內部還有另外兩個元素： <h1>和 <p> -->
 <head>
     <meta charset="UTF-8">
@@ -27,6 +32,11 @@
     
     <!-- HTML Links -->
     <!-- 該<a>標籤定義了一個超連結。該 href屬性指定連結轉到的頁面的 URL -->
+    <!-- 有兩種方法可以在屬性中指定 URL src ：
+    1. 絕對 URL - 連結到另一個網站上託管的外部圖片。範例：src="https://www.w3schools.com/images/img_girl.jpg"。
+    注意：外部影像可能受版權保護。如果您未獲得使用許可，則可能會違反版權法。此外，您無法控制外部影像；它可能會突然被刪除或更改。
+    2. 相對 URL - 連結到網站內託管的圖片。這裡，URL不包含網域。如果 URL 開頭沒有斜杠，則它將相對於當前頁面。範例：src="img_girl.jpg"。如果 URL 以斜線開頭，則它將相對於網域。範例：src="/images/img_girl.jpg"。
+    提示：使用相對 URL 幾乎總是最好的。如果您更改網域，它們不會中斷。 -->
     <a href="http://google.com">Visit Google Website</a>"
     
     <!-- HTML BLANK -->
@@ -38,11 +48,17 @@
 
     <!-- HTML Images。原始檔 ( src)、替代文字 ( alt)、 width和height作為屬性提供 -->
     <!-- 此<img>標籤用於在 HTML 頁面中嵌入圖像。此src屬性指定要顯示的影像的路徑 -->
+    <!-- 該<img>標籤還應包含 width和 height屬性，它們指定圖像的寬度和高度（以像素為單位） -->
+    <!-- 如果由於某種原因無法顯示圖像，則標記的必需alt屬性<img> 指定圖像的替代文字。這可能是由於連線速度慢、屬性錯誤src或使用者使用螢幕閱讀器造成的 -->
+
     <img src="Kirbe.jpg" alt="Kirbe!!" width="225" height="225"><br>
-    
+
     <!-- HTML 標籤不區分大小寫：<P>與 意義相同<p>。HTML 標準不要求小寫標籤，但 W3C 建議在 HTML 中使用小寫，並要求XHTML 等更嚴格的文件類型使用小寫。 -->
     
-  
+    <!-- The style Attribute --> 
+    <!-- 此style屬性用於為元素添加樣式，例如顏色、字體、大小等 -->
+    <p style="color:red;">This is a red paragraph.</p>
+
 
 
 
