@@ -19,17 +19,73 @@
     <script src="script.js"></script>
     
     <!-- HTML headings <h1> to <h6> tags -->
+    <!-- 這些標題為預設大小，若需要客製化:style -->
+    <!-- Headings 始終以新行開始，瀏覽器會自動在段落前後添加一些空白（邊距） -->
     <h1>this is heading 1</h1>
     <h2>this is heading 2</h2>
     <h3>this is heading 3</h3>
     <h4>this is heading 4</h4>
     <h5>this is heading 5</h5>
     <h6>this is heading 6</h6>
+    <h1 style="font-size:60px;">Heading 1 with font-size 60pz</h1>
     
     <!-- HTML Paragraphs -->
+    <!-- Paragraphs 始終以新行開始，瀏覽器會自動在段落前後添加一些空白（邊距） -->
     <p>This is a paragrapth</p>
     <p>This is another paragrapth</p>
+
+    <!-- HTML Display -->
+    <!-- 您無法確定 HTML 將如何顯示。大或小螢幕以及調整大小的視窗都會產生不同的結果。
+    對於 HTML，您無法透過在 HTML 程式碼中新增額外的空格或額外的行來變更顯示。
+    當頁面顯示時，瀏覽器會自動刪除任何多餘的空格和行： -->
+    <p>
+    This paragraph
+    contains a lot of lines
+    in the source code,
+    but the browser
+    ignores it.
+    </p>
+    <p>
+    This paragraph
+    contains         a lot of spaces
+    in the source         code,
+    but the        browser
+    ignores it.
+    </p>
+
+    <!-- HTML Horizontal Rules-->
+    <!-- 此<hr>標籤定義 HTML 頁面中的主題中斷，並且通常顯示為水平規則。此<hr>元素用於分隔 HTML 頁面中的內容（或定義變更） -->
+    <h1>Heading 1</h1>
+    <p>this is content,and below is "hr" Horizontal rules looks like</p>
+    <hr>
+    <h2>Heading 2</h2>
+    <p>show how does "hr" type use</p>
+
+    <!-- HTML line break -->
+    <p>this is <br> a paragraph <br> with line breaks.</p>
     
+    <!-- HTML <pre> element -->
+    <!-- 若我們需要顯示詩詞類，這樣需要打很多次br -->
+    <!-- 我們使用HTML <pre>元素定義預先格式化文字 -->
+    <!-- 元素內的文字<pre>以固定寬度字體（通常是 Courier）顯示，並保留空格和換行符 -->
+    <pre>
+        My bonnie lies over the ocean
+
+        My Bonnie lies over the sea
+
+        My Bonnie lies over the ocean 
+
+        Oh, bring back my Bonnie to me
+    </pre>            
+
+    <!-- HTML Styles -->
+    <p>I am normal</p>
+    <p style="color:red;">I am red</p>
+    <p style="color:blue;">I am blue</p>
+    <p style="font-size:50px;">I am big</p>
+
+
+
     <!-- HTML Links -->
     <!-- 該<a>標籤定義了一個超連結。該 href屬性指定連結轉到的頁面的 URL -->
     <!-- 有兩種方法可以在屬性中指定 URL src ：
@@ -58,9 +114,17 @@
     <!-- The style Attribute --> 
     <!-- 此style屬性用於為元素添加樣式，例如顏色、字體、大小等 -->
     <p style="color:red;">This is a red paragraph.</p>
+    
+    <!-- The title Attribute -->
+    <!-- 當您將滑鼠懸停在元素上時，標題屬性的值將顯示為工具提示 -->
+    <p title="I am a  tooltip">this is a paragraph</p>
 
+    <!-- How to choose single or double qoutes? -->
+    <!-- 屬性值周圍的雙引號在 HTML 中最常見，但也可以使用單引號。在某些情況下，當屬性值本身包含雙引號時，需要使用單引號： -->
+    <p title='John "gunshot" Nelson'>move your mouse on this</p>
+    <p title="John 'gunshot' Nelson">move your mouse on this</p>
 
-
+    <!--  -->
 
 </body>
 </html>
