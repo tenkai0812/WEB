@@ -24,7 +24,22 @@ let total = food + tipAmount
 console.log("小費金額" + tipAmount)
 console.log("總金額" + total)
 
+
+
+
+//airbnb
+
+const foo = [1, 3];
+console.log(foo[0]);
+const bar = foo;
+console.log(foo[0],bar[0]);
+console.log(foo,bar);
+bar[0] = 9;
+console.log(foo[0], bar[0]);
+console.log(foo,bar);
+
 // 第二個小程式
 
 let time = document.getElementById('demo').innerHTML = Date()
 console.log("time")
+
