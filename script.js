@@ -38,6 +38,9 @@ bar[0] = 9;
 console.log(foo[0], bar[0]);
 console.log(foo,bar);
 
+//let:宣告一個可隨意更改其內容的區塊區域變數,資料可以被複寫、修改，若數值一直在更動，推薦使用let
+//const:宣告一個只可讀取的不可變常數，資料不可以被複寫或修改，數值不會更動，可以使用const
+//var:宣告一個可以隨意更改其內容的變數 ->通常不建議使用var!早期都使用var去宣告變數。因為她多使用在早期ie的部分，但現在ie走入歷史，所以普遍廣泛還是使用let或const
 // 第二個小程式
 
 let time = document.getElementById('demo').innerHTML = Date()

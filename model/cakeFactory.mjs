@@ -1,4 +1,4 @@
-import baker from "../staff.mjs"
+import baker from "./staff.mjs"
 
 export const oven = {
     makeCupcake(toppings){
