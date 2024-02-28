@@ -220,6 +220,12 @@
     <!-- HTML Links -->
     <a href="https://github.com/tenkai0812">github</a>
     <!-- Links target attribute-->
+    <!-- 
+    _self - Default. Opens the document in the same window/tab as it was clicked
+    _blank - Opens the document in a new window or tab
+    _parent - Opens the document in the parent frame
+    _top - Opens the document in the full body of the window
+    -->
     <h3>"_self" Default. Opens the document in the same window/tab as it was clicked</h3>
     <a href="https://github.com/tenkai0812" target="_self">github</a>
     <h3>"_blank" Opens the document in a new window or tab</h3>
@@ -229,8 +235,31 @@
     <h3>"_top" Opens the document in the full body of the window</h3>
     <a href="https://github.com/tenkai0812" target="_top">github</a>
 
+    <!-- Absolute URLs vs. RElative URLs-->
+    <h3>Absolute URLs</h3>
+    <p><a href="https://www.google.com"></a>google</p>
+    <h3>Relative URLs</h3>
+    <p><a href="./index2.html">page2</a><br>
 
+    <!-- HTML Links Use Image as a Link-->
+    <a href="https://www.google.com">
+        <img src="Kirbe.jpg" alt="HTML tutorial" style="width:42px;height:42px">
+    </a><br>
 
+    <!-- LINK to an email -->
+    <a href="mailto:skylien0966065599@gmail.com">Send email</a><br>
+
+    <!-- BT as a link-->
+    <button onclick="document.location='https://www.google.com'">GOOOOOOLE Button</button><br>
+
+    <!-- Link title-->
+    <a href="http://www.google.com" title="title for go to gooole">GOOOOOOLE</a><br>
+
+    <!-- More on Absolute URLs and Relative URLs-->
+    <a href=" https://www.w3schools.com/html/default.asp">HTML tutorial</a><br>
+    <a href="./Design Pattern/anti-pattern/test1.html">anti-pattern</a><br>
+    <a href="index2.html">nextpage</a><br>
+    
 
 
 </body>
