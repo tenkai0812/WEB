@@ -10,3 +10,27 @@ h2{
 h3{ 
     background-color: yellow;
 }
+
+a:link{
+    color:green;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited{
+    color:pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+/* curson on link*/
+a:hover {
+    color:red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+/* click on */
+a:active { 
+    color:yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
