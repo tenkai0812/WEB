@@ -16,13 +16,11 @@ function algorithm_C(n) {
 }
 
 function algorithm(n) {
-    let a = 1;  // +0（技巧 1）
-    a = a + n;  // +0（技巧 1）
-    // +n（技巧 2）
+    let a = 1;  
+    a = a + n; 
     for (let i = 0; i < 5 * n + 1; i++) {
         console.log(0);
     }
-    // +n*n（技巧 3）
     for (let i = 0; i < 2 * n; i++) {
         for (let j = 0; j < n + 1; j++) {
             console.log(0);
