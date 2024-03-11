@@ -23,3 +23,4 @@
 |zh-Hans-MO|澳門地區使用繁體中文|
 |zh-Hans-SG|新加坡使用繁體中文|
 
+test
